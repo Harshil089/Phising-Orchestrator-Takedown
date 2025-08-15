@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.env
+artifacts/
+.outbox/
+.runs/
+*.sqlite
+.playwright/
+.vscode/settings.json
+.eggs/
+build/
+dist/

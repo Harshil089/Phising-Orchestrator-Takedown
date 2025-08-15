@@ -1,0 +1,12 @@
+typer
+pydantic
+requests
+httpx
+dnspython
+cryptography
+playwright
+python-rdap
+ipwhois
+google-api-python-client
+oauth2client
+pytest
