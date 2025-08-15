@@ -1,0 +1,15 @@
+env: dev
+browser:
+  headless: true
+  javascript_enabled: false
+  nav_timeout_ms: 10000
+  max_redirects: 5
+heuristics:
+  suspicious_tlds: ["top", "xyz", "gq", "tk", "ml", "cf"]
+  brand_keywords: ["login", "verify", "account", "bank"]
+reporting:
+  enable_reporting: false
+  rate_limit_per_min: 15
+sheets:
+  google_sheet_id:
+  google_credentials_path:

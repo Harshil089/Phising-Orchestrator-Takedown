@@ -1,28 +1,14 @@
-# Python
-__pycache__/
+pycache/
 *.pyc
-*.pyo
-*.pyd
-*.egg-info/
-.eggs/
-build/
-dist/
-
-# Environments
 .env
-.venv/
-.venv/lib/python3.12/site-packages/playwright/driver/node
-venv/
-env/
-ENV/
-
-# Tool caches / artifacts
-.playwright/
 artifacts/
 .outbox/
 .runs/
 *.sqlite
-
-# OS/Editor
-.DS_Store
-.vscode/
+.playwright/
+.vscode/settings.json
+.eggs/
+build/
+dist/
+.venv/
+__pycache__/

@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "phish-takedown-orchestrator"
+version = "0.0.1"
+requires-python = ">=3.10"
+dependencies = [
+    "typer",
+    "pydantic",
+    "requests",
+    "httpx",
+    "dnspython",
+    "cryptography",
+    "playwright",
+    "rdap",
+    "ipwhois",
+    "google-api-python-client",
+    "oauth2client",
+    "pytest",
+    "PyYAML"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
