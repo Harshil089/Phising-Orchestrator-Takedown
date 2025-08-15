@@ -1,12 +1,27 @@
+# Python
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Environments
 .env
+.venv/
+venv/
+env/
+ENV/
+
+# Tool caches / artifacts
+.playwright/
 artifacts/
 .outbox/
 .runs/
 *.sqlite
-.playwright/
-.vscode/settings.json
-.eggs/
-build/
-dist/
+
+# OS/Editor
+.DS_Store
+.vscode/
