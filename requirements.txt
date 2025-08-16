@@ -5,7 +5,7 @@ httpx
 dnspython
 cryptography
 playwright
-python-rdap
+rdap
 ipwhois
 google-api-python-client
 oauth2client
